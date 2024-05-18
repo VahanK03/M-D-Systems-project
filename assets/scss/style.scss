@@ -1,0 +1,158 @@
+@import "footer";
+@import "header";
+@import "helper";
+@import "inspiration";
+@import "room";
+@import "services";
+
+body {
+    background-color: #f3eee8;
+    margin: 0;
+    overflow-x: hidden;
+  }
+  
+  @media screen and (max-width: 800px) {
+    .inspiration-container p, .header-img {
+      width: 100%;
+    }
+  
+    .header-content span {
+      text-align: left;
+    }
+  
+    .header-container img {
+      position: relative;
+      width: 100%;
+    }
+  
+    .header-content {
+      nav {
+        justify-content: space-around;
+      }
+  
+      color: white;
+      width: 100%;
+      padding-left: 0px;
+      width: 100%;
+      height: 100vh;
+      z-index: 999;
+      text-align: center;
+      position: absolute;
+    }
+  
+    .rooms-desc {
+      width: auto;
+    }
+  
+    .rooms {
+      flex-direction: column;
+      row-gap: 25px;
+    }
+  
+    .room-swipe {
+      justify-content: space-between;
+      flex-direction: row-reverse;
+    }
+  
+    .room:nth-of-type(2) {
+      display: none;
+    }
+  
+    .gallery {
+      flex-direction: row;
+      flex-wrap: wrap;
+  
+      img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+      }
+  
+      div {
+        flex: 1 1 calc(50% - 5px);
+      }
+  
+      p {
+        display: block;
+      }
+    }
+  
+    .gallery-container {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+  
+    .inspiration-container {
+      flex-direction: column;
+      align-items: start;
+    }
+  
+    .gallery-buttons {
+      display: none;
+    }
+  
+    .footer .all-info {
+      flex-direction: column;
+    }
+  
+    .antic {
+      align-items: center;
+    }
+  
+    .respect-planet {
+      width: 100% !important;
+    }
+  
+    .parameters {
+      flex-direction: column-reverse;
+      align-items: flex-start;
+    }
+  
+    .slider-for-rooms {
+      flex-wrap: wrap;
+      row-gap: 20px;
+    }
+  
+    .help {
+      display: flex;
+      align-items: flex-start;
+      flex-wrap: wrap;
+    }
+  
+    .more-info, .oportunities {
+      width: 100%;
+    }
+  
+    .project-container {
+      flex-direction: column;
+    }
+  
+    .oportunities-container {
+      div {
+        width: 100%;
+        margin: 0;
+      }
+  
+      margin-top: 15px;
+      margin-bottom: 32px;
+    }
+  
+    .latest-trends {
+      padding-left: 5%;
+      justify-content: flex-start;
+      flex-direction: column;
+      row-gap: 25px;
+    }
+  
+    .trends {
+      width: 100%;
+      margin: 0;
+    }
+  
+    .subscribe {
+      width: 100%;
+      flex-direction: column;
+      align-items: normal;
+    }
+  }
+  

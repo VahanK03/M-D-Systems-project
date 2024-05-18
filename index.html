@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- <link href="./assets/scss/helper.css" rel="stylesheet">
+    <link href="./assets/scss/header.css" rel="stylesheet">
+    <link href="./assets/scss/room.css" rel="stylesheet">
+    <link href="./assets/scss/services.css" rel="stylesheet">
+    <link href="./assets/scss/inspiration.css" rel="stylesheet">
+    <link href="./assets/scss/footer.css" rel="stylesheet"> -->
+    <link href="./assets/scss/style.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Varta:wght@300..700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Varta:wght@300..700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+    </style>
+</head>
+
+<body>
+
+    <div class="header-container flex-row">
+        <div class="header-content">
+            <nav class="flex-center-left">
+                <span class="menu-title">antic</span>
+                <div class="menu">
+                    <a href="#" rel='stylesheet'><i class="gg-close"></i></a>
+                    <a href="#" class="active">Products</a>
+                    <a href="#">Rooms</a>
+                    <a href="#">Services</a>
+                    <a href="#">Inspirations</a>
+                </div>
+                <a id="menu-icon" class="icon">&#9776;</a>
+            </nav>
+            <div class="main-information">
+                <p class="home-design">HOME DESIGN</p>
+                <p class="elegance">Elegance for <br> Interiors &<br> Exteriors</p>
+                <p class="slogan">We provide everyone with modern,<br> trendy, quality furniture</p>
+            </div>
+        </div>
+
+        <div class="header-img">
+            <img src="./assets/source/Hero Background.jpg" id="lamps">
+        </div>
+    </div>
+
+
+
+
+
+    <div class="room-container">
+        <h2 class="find-room-title">Find your Room</h2>
+        <div class="slider-for-rooms flex-row">
+            <div class="rooms-desc description-style">
+                Dining room, bedroom, bathroom or office. Find what you need
+            </div>
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="room swiper-slide">
+                        <div class="room-img">
+                            <img src="./assets/source/Background.png" />
+                            <span>Bedroom</span>
+                        </div>
+                        <span class="description-style">New arrivals</span>
+                    </div>
+                    <div class="room swiper-slide">
+                        <div class="room-img">
+                            <img src="./assets/source/Background1.png" />
+                            <span>Living room</span>
+                        </div>
+                        <span class="description-style">New arrivals</span>
+                    </div>
+                    <div class="room swiper-slide">
+                        <div class="room-img">
+                            <img src="./assets/source/Background.png" />
+                            <span>Living room</span>
+                        </div>
+                        <span class="description-style">New arrivals</span>
+                    </div>
+                    <div class="room swiper-slide">
+                        <div class="room-img">
+                            <img src=".//assets/source/Background1.png" />
+                            <span>Living room</span>
+                        </div>
+                        <span class="description-style">New arrivals</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="room-swipe flex-row">
+            <span class="description-style" id="slide-count">01 / 05</span>
+            <button onclick="slideCounter()" class="slideNext-btn">Next ></button>
+        </div>
+    </div>
+
+
+    <div class="project-container flex-row-between">
+        <div class="more-info flex-column">
+            <div>
+                <p>We stay by your<br> side to design<br> your projects</p>
+                <a href="">Find out more ></a>
+            </div>
+        </div>
+        <div class="oportunities flex-center">
+            <div class="oportunities-container flex-row">
+                <div>
+                    <p class="p-style">Our Advices</p>
+                    <p class="description-style">What if you took advantage of this
+                        rather special period to rethink
+                        your interior? You spend more
+                        time at home so you might as well
+                        feel good there.</p>
+                </div>
+                <div>
+                    <p class="p-style">Click and collect</p>
+                    <p class="description-style">What if you took advantage of this
+                        rather special period to rethink
+                        your interior? You spend more
+                        time at home so you might as well
+                        feel good there.</p>
+                </div>
+                <div>
+                    <p class="p-style">Conception Service</p>
+                    <p class="description-style">Adapted and contactless. Free
+                        from € 200 of purchases in stores
+                        offering the service.</p>
+                </div>
+                <div>
+                    <p class="p-style">Installation Service</p>
+                    <p class="description-style">What if you took advantage of this
+                        rather special period to rethink
+                        your interior? You spend more
+                        time at home so you might as well
+                        feel good there.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="latest-trends flex-row-between-center">
+        <div class="trends flex-column">
+            <span class="trends-header">Be aware of the latest trends</span>
+            <p class="description-style">Stay informed of new trends, but also of our various offers.</p>
+            <a href="">Learn more ></a>
+        </div>
+        <div class="subscribe flex-row">
+            <input type="email" placeholder="email@address.com">
+            <button type="button" class="button">Subscribe</button>
+        </div>
+    </div>
+    <div class="gallery-container" id="gallery">
+        <div class="gallery" id="navbar">
+            <div class="flex-column">
+                <img src=".//assets/source/Picture.png" title="Chair" />
+                <p>Chair</p>
+            </div>
+            <div class="flex-column">
+                <img src=".//assets/source/Picture1.png" title="Cooked" />
+                <p>Cooked</p>
+            </div>
+            <div class="flex-column">
+                <img src="./assets/source/Mask Group.png" title="Living room" />
+                <p>Living room</p>
+            </div>
+            <div class="flex-column">
+                <img src="./assets/source/Mask Group1.png" title="Tables" />
+                <p>Table</p>
+            </div>
+        </div>
+        <div class="inspiration-container flex-row-between-center">
+            <span>Inspirations</span>
+            <p class="description-style">Our experts are keen to stay on top of trends in order
+                 to offer you new inspirations for your interior and exterior every day. Remember
+                  that to inspire you we have to inspire ourselves and we want to share that with you.</p>
+            <div class="gallery-buttons flex-column">
+                <div>
+                    <img src="./assets/source/Button_left.png" onclick="ascroll('left')">
+                    <img src="./assets/source/Button_right.png" onclick="ascroll('right')">
+                </div>
+                <span class="description-style">01 / 05</span>
+            </div>
+        </div>
+    </div>
+    <div class="footer flex-column">
+        <div class="all-info flex-row-between">
+            <div class="antic flex-column">
+                <p>
+                    antic
+                </p>
+            </div>
+            <div class="flex-column">
+                <p>Products</p>
+                <a href="" class="description-style">Furniture</a>
+                <a href="" class="description-style">Decoration</a>
+                <a href="" class="description-style">Storage</a>
+                <a href="" class="description-style">Baby and child</a>
+                <a href="" class="description-style">Connected home</a>
+            </div>
+            <div class="flex-column">
+                <p>Rooms</p>
+                <a href="" class="description-style">Living room</a>
+                <a href="" class="description-style">Dining room</a>
+                <a href="" class="description-style">Cooked</a>
+                <a href="" class="description-style">Bedroom</a>
+                <a href="" class="description-style">Bathroom</a>
+                <a href="" class="description-style">Office</a>
+                <a href="" class="description-style">Laundry</a>
+                <a href="" class="description-style">Garage</a>
+            </div>
+            <div class="flex-column">
+                <p>Services</p>
+                <a href="" class="description-style">Click and collect</a>
+                <a href="" class="description-style">Conception</a>
+                <a href="" class="description-style">Installation</a>
+                <a href="" class="description-style">Advices</a>
+                <a href="" class="description-style">Gift card</a>
+            </div>
+            <div class="flex-column">
+                <p>About</p>
+                <a href="" class="description-style">Our story</a>
+                <a href="" class="description-style">Our stores</a>
+                <a href="" class="description-style">Our partners</a>
+            </div>
+            <div class="respect-planet flex-column">
+                <p>We respect our planet</p>
+                <img src="./assets/source/room.png">
+                <p class="description-style">We’re taking positive steps to reduce our impact on the planet. For
+                    us, that means retailing responsibly.</p>
+                <a href="" class="more-info">Learn more ></a>
+            </div>
+        </div>
+        <div class="networks flex-row">
+            <a href=""><img src="./assets/source/Facebook.png"></a>
+            <a href=""><img src="./assets/source/Twitter.png"></a>
+            <a href=""><img src="./assets/source/Linkedin.png"></a>
+            <a href=""><img src="./assets/source/Instagram.png"></a>
+        </div>
+        <div class="parameters flex-row-between-center">
+            <p>© 2021 Agence Dnd</p>
+            <div class="help flex-row">
+                <a href="">Privacy policy</a>
+                <a href="">Term of service</a>
+                <a href="">Language</a>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        let slideCount = 1;
+        const slideSize = 5;
+
+        function slideCounter() {
+            slideCount++;
+            if (slideCount > slideSize) {
+                slideCount = 1;
+            }
+            const slideElement = document.getElementById("slide-count");
+            slideElement.innerHTML = `${slideCount.toString().padStart(2, '0')} / ${slideSize.toString().padStart(2, '0')}`;
+        }
+
+        function ascroll(side) {
+            let el = document.getElementById("navbar");
+            el.style.overflow = "hidden";
+            el.scrollLeft = (side === "right") ? el.scrollWidth : 0;
+        }
+
+        var menuIcon = document.querySelector("#menu-icon");
+        var nav = document.querySelector(".menu");
+        var navLinks = document.querySelectorAll(".menu a");
+
+        Array.from(navLinks).forEach((li) =>
+            li.addEventListener("click", () => {
+                if (menuIcon.classList.contains("toggle")) {
+                    menuIcon.classList.remove("toggle");
+                }
+                if (nav.classList.contains("nav-active")) {
+                    nav.classList.remove("nav-active");
+                }
+            })
+        );
+
+        menuIcon.addEventListener("click", () => {
+            nav.classList.toggle("nav-active");
+            menuIcon.classList.toggle("toggle");
+        });
+
+        const swiper = new Swiper('.swiper', {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            loop: true,
+
+            pagination: {
+                el: '.swiper-pagination',
+            },
+            navigation: {
+                nextEl: '.slideNext-btn',
+            },
+            scrollbar: {
+                el: '.swiper-scrollbar',
+            },
+            breakpoints: {
+                800: {
+                    slidesPerView: 2,
+                    spaceBetween: 20,
+                },
+
+            }
+        });
+    </script>
+</body>
+
+</html>

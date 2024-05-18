@@ -1,0 +1,100 @@
+.latest-trends {
+    background-color: white;
+    padding: 50px 5%;
+  }
+  
+  .trends {
+    width: 40%;
+  
+    a {
+      text-decoration: none;
+      font-family: "Karla";
+      font-size: 17px;
+      font-weight: 700;
+      color: #A06056;
+    }
+  
+    .trends-header {
+      color: rgba(18, 18, 18, 1);
+      font-family: "Merriweather";
+      font-weight: 300;
+      font-size: 35px;
+    }
+  }
+  
+  .subscribe {
+    width: 40%;
+    justify-content: right;
+    align-items: center;
+  
+    input {
+      height: 30px;
+      border-color: transparent;
+      background-color: #F3EEE84D;
+      font-size: 18px;
+    }
+  
+    button {
+      background-color: #534B42;
+      border-color: transparent;
+      color: white;
+      width: auto;
+      cursor: pointer;
+      font-family: "Karla";
+      font-weight: 700;
+      font-size: 17px;
+      padding: 5px;
+    }
+  }
+  
+  /* 4 latest-trends */
+  
+  /* 5 gallery-container */
+  
+  .inspiration-container {
+    margin: 10px;
+  
+    p {
+      width: 30%;
+    }
+  
+    span {
+      font-family: "Merriweather";
+      font-weight: 300;
+      font-size: 45px;
+      color: rgba(83, 75, 66, 1);
+    }
+  }
+  
+  .gallery {
+    display: flex;
+    gap: 10px;
+  
+    img {
+      width: 400px;
+      height: 500px;
+      display: block;
+    }
+  
+    p {
+      display: none;
+    }
+  }
+  
+  .gallery-buttons {
+    cursor: pointer;
+  
+    span {
+      color: rgba(112, 100, 88, 0.9);
+      font-weight: 400;
+      font-family: "Varta";
+      font-size: 18px;
+      text-decoration: none;
+    }
+  }
+  
+  .gallery-container {
+    padding: 5%;
+    background-color: white;
+  }
+  

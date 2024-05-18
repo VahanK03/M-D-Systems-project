@@ -1,0 +1,36 @@
+.project-container {
+    padding: 0 5%;
+  }
+  
+  .more-info {
+    p {
+      color: rgba(112, 100, 88, 1);
+      font-family: "Merriweather";
+      font-weight: 400;
+      font-size: 55px;
+    }
+  
+    a {
+      color: rgba(160, 96, 86, 1);
+      text-decoration: none;
+      font-family: "Karla";
+      font-size: 17px;
+      font-weight: 700;
+    }
+  }
+  
+  .oportunities {
+    width: 40%;
+  }
+  
+  .oportunities-container {
+    width: 100%;
+    flex-wrap: wrap;
+    flex: 1;
+  
+    div {
+      width: 46%;
+      margin: 2%;
+    }
+  }
+  
